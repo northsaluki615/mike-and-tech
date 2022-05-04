@@ -3,10 +3,10 @@ module.exports = {
     title: `Mike and Tech`,
     author: {
       name: `Michael Helmers`,
-      summary: `who lives and works in Madison building useful things.`,
+      summary: `Where Mike Explores Technology`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A chronicle of Mike's adventures in IT.`,
+    siteUrl: `https://helmers.io/`,
     social: {
       twitter: `mphelmers`,
     },
