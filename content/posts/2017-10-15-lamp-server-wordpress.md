@@ -55,7 +55,7 @@ Exit MySQL by typing &#8216;exit'
     sudo mkdir /var/www/html/wordpress
     cd /var/www/html/wordpress
     sudo rm *
-    sudo wget http =//wordpress.org/latest.tar.gz
+    sudo wget https//wordpress.org/latest.tar.gz
 
 Then we will extract the content via the command “tar”.
 
@@ -108,7 +108,7 @@ Go to Settings then Permalinks. This will make your site more user-friendly.
 
 Select the Post name option and click Save Changes.
 
-Make sure to update your DNS settings with your registrar and then go to the &#8216;Settings' tab on the left of your WordPress site. Update the &#8216;WordPress Address' and &#8216;Site Address' to reflect your domain name. This should allow you to access your site from the domain you created. In this case, [helmershomestead.org.](http =//helmershomestead.org)
+Make sure to update your DNS settings with your registrar and then go to the &#8216;Settings' tab on the left of your WordPress site. Update the &#8216;WordPress Address' and &#8216;Site Address' to reflect your domain name. This should allow you to access your site from the domain you created. In this case, [helmershomestead.org.](https//helmershomestead.org)
 
 ##### Takeaways and future thoughts
 
@@ -144,4 +144,4 @@ I want to enhance the website and maybe someday move it to a better server. This
 
 I received a much help from the authors of the following sites =
 
-https =//www.raspberrypi.org/learning/lamp-web-server-with-wordpress/
+https//www.raspberrypi.org/learning/lamp-web-server-with-wordpress/

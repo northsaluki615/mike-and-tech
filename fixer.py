@@ -10,4 +10,4 @@ def findReplace(directory, find, replace, filePattern):
             with open(filepath, "w") as f:
                 f.write(s)
 
-findReplace("./mike-and-tech-md", "&amp;", "/", "*.md")
+findReplace("./content/posts", "tags:", "tags = ", "*.md")

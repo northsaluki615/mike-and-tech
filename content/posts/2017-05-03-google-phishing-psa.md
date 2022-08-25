@@ -13,4 +13,4 @@ Delete it.
 
 If you already opened it, change your password ASAP.
 
-Also go here = https =//myaccount.google.com/permissions and remove permissions for 'Google Docs' if it appears there. This is a really well-done phishing attack.
+Also go here:https//myaccount.google.com/permissions and remove permissions for 'Google Docs' if it appears there. This is a really well-done phishing attack.

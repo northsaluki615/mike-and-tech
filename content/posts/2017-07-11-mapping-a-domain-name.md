@@ -22,7 +22,7 @@ Now, how can I send my domain, to my apartment's IP address? BTW, this whole pos
 
 ##### 1. Buy a domain name
 
-There are several registrars out there who you can purchase domains from. Godaddy is a large name in this industry, known for their ridiculous ads and poor treatment of women. I choose to go a more ethical route, and went with Google. This was easy enough, I started by going to [domains.google.com](http =//domains.google.com) for the domains I wanted. In this case, [mikehelmers.com](http =//mikehelmers.com) and [helmershomestead.org](http =//helmershomestead.org). Each of these ran at $12 a pop. But you can get nearly any domain that's available. I entered my credit card info, bought my domains. Easy.
+There are several registrars out there who you can purchase domains from. Godaddy is a large name in this industry, known for their ridiculous ads and poor treatment of women. I choose to go a more ethical route, and went with Google. This was easy enough, I started by going to [domains.google.com](https//domains.google.com) for the domains I wanted. In this case, [mikehelmers.com](https//mikehelmers.com) and [helmershomestead.org](https//helmershomestead.org). Each of these ran at $12 a pop. But you can get nearly any domain that's available. I entered my credit card info, bought my domains. Easy.
 
 ##### 2. Setup DNS settings
 
@@ -80,6 +80,6 @@ Nothing at this time. This porject does exactly what I expected it to do.
 
 I received a much help from the authors of the following sites =
 
-[https =//support.google.com/domains/answer/3251147](https =//support.google.com/domains/answer/3251147)
+[https//support.google.com/domains/answer/3251147](https//support.google.com/domains/answer/3251147)
 
  

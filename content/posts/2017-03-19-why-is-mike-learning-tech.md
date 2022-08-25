@@ -8,7 +8,7 @@ date = 2017-03-20
 
 In June of 2016, my wife Kristin received an amazing position working with young adults with autism, and I had was offered a choice. Stay at my current job, or jump ship. My then employer had a history of letting people telecommute, so that was one option, but I wasn’t sure what I wanted.
 
-![wp-image-568728653jpg.jpg](https =//mikehelmers.com/wp-content/uploads/2017/03/wp-image-568728653jpg-e1489971489117.jpg)
+![wp-image-568728653jpg.jpg](https//mikehelmers.com/wp-content/uploads/2017/03/wp-image-568728653jpg-e1489971489117.jpg)
 
 I was nearing my 4-year anniversary with my then employer. I spent much time over the previous year trying to figure out what was next for me. My employer had few options for a lateral move and even less for promotions. In fact, the majority of my co-workers had been doing the same job for years, with no real growth options. I say “real growth options” because while there were pieces of training and workshops, it never equated to upward mobility.
 

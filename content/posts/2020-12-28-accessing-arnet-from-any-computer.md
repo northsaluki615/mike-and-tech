@@ -11,9 +11,9 @@ This is important because it is a pain to get your ARNet account reactivated. Pl
 
 ## Requirements
 
-- An ARNet Account which [you can request here](https =//aramp.usar.army.mil/). You need to be on a Army Reserve network to request this. Talk to your S6/Commo person for help.
+- An ARNet Account which [you can request here](https//aramp.usar.army.mil/). You need to be on a Army Reserve network to request this. Talk to your S6/Commo person for help.
 - Windows 10 - This is just easier than using Linux or MacOS because of your CAC will interact with the applications
-- [Citrix Workspace app](https =//www.citrix.com/content/citrix/en_us/downloads/workspace-app/windows/workspace-app-for-windows-latest.html)- This is what will connect to ARNet. Support for this app is [located on Citrix's website](https =//www.citrix.com/products/receiver.html).
+- [Citrix Workspace app](https//www.citrix.com/content/citrix/en_us/downloads/workspace-app/windows/workspace-app-for-windows-latest.html)- This is what will connect to ARNet. Support for this app is [located on Citrix's website](https//www.citrix.com/products/receiver.html).
 
 #### For Army Reservist who are deployed/mobilized
 
@@ -29,15 +29,15 @@ This will install Citrix Receiver on your computer and allow you to proceed with
 ## Logging into ARNet Remotely
 
 1. Ensure Citrix Workspace/Receiver is intalled.
-2. Open your web browser and navigate to the following URL = [https =//rasxtra.usar.army.mil/](https =//rasxtra.usar.army.mil/)
+2. Open your web browser and navigate to the following URL:[https//rasxtra.usar.army.mil/](https//rasxtra.usar.army.mil/)
 3. Select your “Authentication Certificate” and enter your PIN when prompted
 4. If successful, you’ll see an USARC Alert message, click “Accept”
 5. You will see a Citrix Receiver Screen. Click “Detect Receiver”
 6. You’ll see a message stating that “This site is trying to open Citrix Receiver”. Check the box that says “Always allow”, and click “Open”
 7. If nothing happens, select “Already installed”
-8. Select the appropriate Certificate from your CAC (Note = not the EMAIL one)
+8. Select the appropriate Certificate from your CAC (Note:not the EMAIL one)
 9. The next screen you see should the ***US Army Reserve Remote Access Portal***. Select “AR Desktop”
-10. Select the appropriate Certificate from your CAC (Note = not the EMAIL one)
+10. Select the appropriate Certificate from your CAC (Note:not the EMAIL one)
 11. Enter your PIN and click “Log On”
 12. A file will download. Open it
 13. Citrix will launch, follow the Authentication Requests and enter your PIN as needed
@@ -48,4 +48,4 @@ This will install Citrix Receiver on your computer and allow you to proceed with
 
 ***Worth noting, this system is finicky, and will occasionally be down.***
 
-### Help for this application goes out to an unknown Sergeant from a random exercise I went to who sent me down this path. I also received some guidance from [Military CAC](https =//militarycac.com/rap.htm)
+### Help for this application goes out to an unknown Sergeant from a random exercise I went to who sent me down this path. I also received some guidance from [Military CAC](https//militarycac.com/rap.htm)

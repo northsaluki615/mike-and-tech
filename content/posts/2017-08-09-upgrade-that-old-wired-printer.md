@@ -41,7 +41,7 @@ Once it's tested open up the Google Chrome browser (or Chromium) and perform the
 4. Manage printers
 5. Select the printer you want to add
 
-Now that the printer is added, you can manage it at https =//www.google.com/cloudprint/. Here you can share the printer with anyone with a Google account.
+Now that the printer is added, you can manage it at https//www.google.com/cloudprint/. Here you can share the printer with anyone with a Google account.
 
 ##### Takeaways and future thoughts
 

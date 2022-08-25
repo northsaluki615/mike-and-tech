@@ -10,7 +10,7 @@ Many employers use some type of web filtering technology. We've all come across 
 
 Web filtering, Content-control software, web blocker, and my favorite, censorware. These are different names for essentially the same technology.
 
-What does it do? Essentially, these pieces of software look at the URL (ex = helmers.io, netflix.com, google.com) that your computer/phone/IoT device is trying to reach, and compare the URL against a list. If that website is on a list that the filter admin doesn't want you visiting, you'll receive a message telling you so, or the site just won't load.
+What does it do? Essentially, these pieces of software look at the URL (ex:helmers.io, netflix.com, google.com) that your computer/phone/IoT device is trying to reach, and compare the URL against a list. If that website is on a list that the filter admin doesn't want you visiting, you'll receive a message telling you so, or the site just won't load.
 
 It's as simple as that.
 
@@ -22,7 +22,7 @@ A few of the larger companies that provide this service are =
 
 - Palo Alto - One of the larger Cybersecurity companies in America
 
-A service I love that does this is the FOSS [Pi-hole](https =//pi-hole.net).
+A service I love that does this is the FOSS [Pi-hole](https//pi-hole.net).
 
 ## The Situation
 
@@ -34,7 +34,7 @@ I, Mike Helmers, use a [pihole](__GHOST_URL__/ads-what-ads/) to block ads and th
 
 I strongly feel that from a security perspective, blocking known malware-ridden URLs is a good best practice. I also think it's important to block ads, and tracking services that you might not even know are on a webpage.
 
-I have different feelings when it comes to blocking sites like Youtube. Is there a lot of time wasting on Youtube? Yes. But blocking a site like that also keeps a vast warehouse of knowledge from users hands. As an example, if I'm in the Army and want to learn how to setup an antenna, [Youtube has a video](https =//www.youtube.com/watch?v=WyEw0mycoYI) on how to to that. Why would you limit the tools that your employees have? Just one person's opinion.
+I have different feelings when it comes to blocking sites like Youtube. Is there a lot of time wasting on Youtube? Yes. But blocking a site like that also keeps a vast warehouse of knowledge from users hands. As an example, if I'm in the Army and want to learn how to setup an antenna, [Youtube has a video](https//www.youtube.com/watch?v=WyEw0mycoYI) on how to to that. Why would you limit the tools that your employees have? Just one person's opinion.
 
 ## The Lists
 
@@ -46,20 +46,20 @@ Hobbyists and nerds across the Internet create hundreds of lists that show diffe
 
 Here's a few examples =
 
-- [https =//avoidthehack.com/best-pihole-blocklists](https =//avoidthehack.com/best-pihole-blocklists)
+- [https//avoidthehack.com/best-pihole-blocklists](https//avoidthehack.com/best-pihole-blocklists)
 
-- [https =//firebog.net/](https =//firebog.net/)
+- [https//firebog.net/](https//firebog.net/)
 
-- [https =//github.com/topics/pihole-blocklists](https =//github.com/topics/pihole-blocklists)
+- [https//github.com/topics/pihole-blocklists](https//github.com/topics/pihole-blocklists)
 
 ### Company Built
 
 Blue Coat, Palo Alto, Zscaler, and others have also developed their own lists. They even go a step further and will classify URLs. For example =
 
-**Streaming Service** = Youtube, Netflix, Hulu
-**Social** = Media Twitter, Myspace, Facebook
-**News** = CNN, NPR, Reddit
-**Blog** = Medium, Wordpress
+**Streaming Service**:Youtube, Netflix, Hulu
+**Social**:Media Twitter, Myspace, Facebook
+**News**:CNN, NPR, Reddit
+**Blog**:Medium, Wordpress
 
 It is these classifications that large organizations use in addition to blocking known malicious sites. This is how you are stopped from watching Netflix during the day.
 
@@ -71,8 +71,8 @@ Now, how do you get around these services? There's a few options. I'm going to l
 
 This is especially important for Pi-hole users. Occaisionally the Pi-hole will block things you don't want. Take a look at these lists to determine if this is for you.
 
-[https =//github.com/anudeepND/whitelist](https =//github.com/anudeepND/whitelist)
-[https =//discourse.pi-hole.net/t/commonly-whitelisted-domains/212](https =//discourse.pi-hole.net/t/commonly-whitelisted-domains/212)
+[https//github.com/anudeepND/whitelist](https//github.com/anudeepND/whitelist)
+[https//discourse.pi-hole.net/t/commonly-whitelisted-domains/212](https//discourse.pi-hole.net/t/commonly-whitelisted-domains/212)
 
 #### Signal
 
@@ -102,11 +102,11 @@ I've talked about VPNs on this site before. They're great tools for circumventin
 
 ### Alternate Sites
 
-Did you know that you can watch Youtube through other websites? Enter my favorite search engine = [DuckDuckGo](https =//duckduckgo.com)
+Did you know that you can watch Youtube through other websites? Enter my favorite search engine:[DuckDuckGo](https//duckduckgo.com)
 
 Just follow these simple steps =
 
-1. Go to [duckduckgo.com](https =//duckduckgo.com)
+1. Go to [duckduckgo.com](https//duckduckgo.com)
 2. Search for a video a you want to watch
 3. Click on the "Videos" search results
 4. Select the video and watch through DuckDuckGo's video player
@@ -115,7 +115,7 @@ An added perk for this method, is Youtube can't track you through your browser.
 
 ### Infiltrate the Lists
 
-So, this is a weirder one. Hypothetically, lets say I want to watch (for business reasons) my movie collection stored on my [Jellyfin](https =//jellyfin.org) server while at the office. But alas! For some reason MYDOMAIN.COM is flagged as a "Games" website! Fortunately the web filter told the category. I guess my self-hosted website is in a category that they don't want.
+So, this is a weirder one. Hypothetically, lets say I want to watch (for business reasons) my movie collection stored on my [Jellyfin](https//jellyfin.org) server while at the office. But alas! For some reason MYDOMAIN.COM is flagged as a "Games" website! Fortunately the web filter told the category. I guess my self-hosted website is in a category that they don't want.
 
 Do not panic. Here's a workaround. The lists that large companies use aren't perfect. They know this. So most list maintainers have the ability to test what a URL is classified as, and change that classification if it is erroneous.
 
@@ -123,8 +123,8 @@ So, I know what service my employer is using, so I can go to that provider, via 
 
 Here are some of the bigger sites to test your URL and request a category change =
 
-- [Z-Scaler](https =//sitereview.zscaler.com/)
-- [Palo Alto](https =//urlfiltering.paloaltonetworks.com/)
-- [Blue Coat Web Filter](http =//sitereview.bluecoat.com)
+- [Z-Scaler](https//sitereview.zscaler.com/)
+- [Palo Alto](https//urlfiltering.paloaltonetworks.com/)
+- [Blue Coat Web Filter](https//sitereview.bluecoat.com)
 
-I hope this is educational and helpful to some of you. The Internet is a big and complicated place, that's why there are so many holes. Have fun, stay safe, and remember = If you don't own the equipment or the network, you're probably being watched.
+I hope this is educational and helpful to some of you. The Internet is a big and complicated place, that's why there are so many holes. Have fun, stay safe, and remember:If you don't own the equipment or the network, you're probably being watched.
