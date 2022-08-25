@@ -8,7 +8,7 @@ author = "Michael Helmers"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Mike Helmers's personal website"
 keywords = "blog,cybersecurity,personal"
-info = ["Cybersecurity", "Tinkerer"]
+info = ["Brewer", "Cybersecurity", "Dad", "Tinkerer"]
 avatarURL = "images/avatar.jpg"
 gravatar = "mikehelmers@protonmail.com"
 dateFormat = "January 2, 2006"
