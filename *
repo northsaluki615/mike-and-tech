@@ -1,0 +1,117 @@
++++
+title = What does my dog do all day?
+slug = wendycam
+date = 2017-06-06T02 =51 =59.000Z
+tags = motion, raspberry pi
++++
+
+My wife Kristin and I were talking about our dog, Wendy. We were wondering, what does she do all day while we're at work?
+![Wendysaurus Rex](https =//mikehelmers.com/wp-content/uploads/2017/03/wp-1490105239229.jpg)Wendy likes to stand on her hind legs.
+This inspired the WendyCam. Our little pup is insanely curious, and always trying to get people food. In fact, we only recently learned that she can leap onto our kitchen table! But does she do this when we're gone? Using a Raspberry Pi and some extra hardware, I built an always-on webcam to stream and take pictures when motion is detected.
+
+One of the really cool things about this project was how much I learned about Linux as an OS. I learned more about how permissions work, and this was a great exercise in using Bash, as I did this entire project by logging in through SSH.
+
+For this project I used the following =
+
+&#8211; Raspberry Pi Zero
+
+&#8211; USB wireless network adapter
+
+&#8211; Raspberry Pi Camera module (You could also use a PS3 Eye Camera or any other USB camera)
+
+Steps I followed =
+
+1. Prep Raspberry Pi Zero
+2. Install Motion
+3. Configure Motion
+4. Watch dog and be happy
+
+##### **1. Prep Raspberry Pi Zero**
+![Wendicam on Raspberry Pi Zero](https =//mikehelmers.com/wp-content/uploads/2017/03/wp-1490186151252.jpg)Wendycam on Raspberry Pi Zero
+I choose the Pi Zero because of its small size. I want the computer to be fast so I loaded it with Raspbian Jessie Lite. This image of Raspbian does not come with a GUI, so you have to access it totally through the command line. Once the Pi was setup correctly, I connected my Pi Camera module camera. I went with this camera because of its small form factor. To use it, I had to go into the Raspberry Pi's configuration to activate the camera. I could use almost any other USB camera. Additionally, I have tested it out with an old PS3 Eye camera I had lying around with no issues. I then plugged in a USB WiFi adapter so that the WendyCam can connect to the internet.
+
+![IMG_20170605_213310](https =//mikehelmers.com/wp-content/uploads/2017/06/img_20170605_213310.jpg)After getting Raspibian ready to go I created a case. It's pretty fancy. I used electrical tape and a lunchmeat container.
+
+ 
+
+ 
+
+##### **2. Install Motion**
+
+Why [Motion](https =//github.com/Motion-Project)? Well, Motion is an open-source software that is pretty simple. It does not take many resources to run, and there is a ton of documentation out there.
+
+    sudo apt-get install motion
+
+That installs the program. Next, I opened up a file that would allow the daemon to run on startup.
+
+##### **3. Configure Motion**
+
+Save the changes and open up the /etc/default/motion file and make the following changes =
+
+    sudo nano /etc/default/motion
+    
+    start_motion_daemon=yes
+
+Next, I opened up the program's configuration file. This is what really controls the software. Starting out I edited a few things to get a higher resolution and allow streaming.
+
+    sudo nano /etc/motion/motion.conf
+    # Image width (pixels). Valid range = Camera dependent, default = 352
+    width 1920
+    # Image height (pixels). Valid range = Camera dependent, default = 288
+    height 1280
+    
+    # Restrict stream connections to localhost only (default = on)
+    stream_localhost off
+    
+    FOR PICTURES =
+    # Threshold for number of changed pixels in an image that
+    # triggers motion detection (default = 1500)
+    threshold 3000
+    
+    # Picture frames must contain motion at least the specified number of frames
+    # in a row before they are detected as true motion. At the default of 1, all
+    # motion is detected. Valid range = 1 to thousands, recommended 1-5
+    minimum_motion_frames 4
+    
+    # Target base directory for pictures and films
+    # Recommended to use absolute path. (Default = current working directory)
+    target_dir /var/lib/motion
+
+After this, I forwarded port 8081 from the internet to the Wendy Pi's internal IP address. This allows me to view the WendyCam from my phone.
+
+##### **4. Watch dog and be happy**
+
+To start I type =
+
+    sudo motion
+
+And there we go! Kristin and I can watch Wendy all day long! Turns out she mostly sleeps. But, she looks adorable doing it.
+
+![Screenshot_20170526-115904](https =//mikehelmers.com/wp-content/uploads/2017/06/screenshot_20170526-115904.png)
+
+##### **Takeaways and future thoughts**
+
+**Unexpected problems =**
+
+The settings within Motion are all over the place. It took a bit of time to optimize it for the Raspberry Pi camera module. The default settings also took a ton of pictures. At least 1GB a day. Tweaking the settings slowed this down.
+
+I also learned that I couldn't easily delete the photos in the /var/lib/motion folder. Although this was eventually solved by changing the app permissions
+
+    sudo chown pi /var/lib/motion
+    sudo chmod 777 /var/lib/motion
+
+I also stopped it from taking pictures all together so we only use it to stream now.
+
+**Future Concerns =**
+
+As always, what happens if my IP address changes?
+
+**Future Enhancements =**
+
+I need a camera case! It's great that I have the camera up and running, but I want to protect the camera cable, and maybe mount the Wendycam on the wall.
+
+**I received a much help from the authors of the following sites =**
+
+[http =//www.techradar.com/how-to/computing/how-to-build-a-raspberry-pi-security-camera-1321441](http =//www.techradar.com/how-to/computing/how-to-build-a-raspberry-pi-security-camera-1321441)
+
+[https =//github.com/Motion-Project](http =//Motion Project on GitHub)
