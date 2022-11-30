@@ -34,20 +34,26 @@ author = "authors"
 [[params.social]]
   name = "Twitter"
   icon = "fa fa-twitter fa-2x"
-  weight = 3
+  weight = 4
   url = "https://twitter.com/mphelmers/"
 [[params.social]]
-name = "LinkedIn"
-icon = "fa fa-2x fa-linkedin"
-weight = 4
-url = "https://www.linkedin.com/in/michaelhelmers/"
+  name = "LinkedIn"
+  icon = "fa fa-2x fa-linkedin"
+  weight = 2
+  url = "https://www.linkedin.com/in/michaelhelmers/"
 [[params.social]]
-name = "RSS"
-icon = "fa fa-2x fa-rss"
-weight = 6
-url = "https://helmers.io/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
+  name = "Mastodon"
+  icon = "fa fa-2x fa-mastodon"
+  weight = 3
+  url = "https://infosec.exchange/@northsaluki615"
+  rel = "me" 
+[[params.social]]
+  name = "RSS"
+  icon = "fa fa-2x fa-rss"
+  weight = 5
+  url = "https://helmers.io/index.xml"
+  rel = "alternate"
+  type = "application/rss+xml"
 
 
 [[menu.main]]
