@@ -46,7 +46,8 @@ author = "authors"
   icon = "fa fa-2x fa-mastodon"
   weight = 3
   url = "https://infosec.exchange/@northsaluki615"
-  rel = "me"
+  #url = "<a rel="me" href="https://infosec.exchange/@northsaluki615"></a>"
+  rel = "me" 
 [[params.social]]
   name = "Pixelfed"
   icon = "fa fa-2x fa-pixelfed"
@@ -60,7 +61,6 @@ author = "authors"
   url = "https://helmers.io/index.xml"
   rel = "alternate"
   type = "application/rss+xml"
-
 
 [[menu.main]]
   name = "Blog"
