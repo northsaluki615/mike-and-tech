@@ -45,13 +45,13 @@ author = "authors"
   name = "Mastodon"
   icon = "fa fa-2x fa-mastodon"
   weight = 3
-  #url = "<a rel="me" href="https://infosec.exchange/@northsaluki615"></a>"
+  url = "https://infosec.exchange/@northsaluki615"
   rel = "me"
-  [[params.social]]
+[[params.social]]
   name = "Pixelfed"
   icon = "fa fa-2x fa-pixelfed"
   weight = 4
-  #url = "<a rel="me" href="https://pixelfed.social/@mhelmers"></a>"
+  url = "https://pixelfed.social/@mhelmers"
   rel = "me" 
 [[params.social]]
   name = "RSS"
