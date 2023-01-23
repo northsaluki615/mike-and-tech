@@ -6,7 +6,7 @@ date = 2020-11-02
 
 ## Web Tools
 
-- [Web-based MITM Detector](URL https//www.grc.com/fingerprints.htm)
+- [Web-based MITM Detector](https//www.grc.com/fingerprints.htm)
 
 ## Educational Resources
 
